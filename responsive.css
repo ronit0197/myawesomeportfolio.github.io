@@ -1,0 +1,374 @@
+@media all and (max-width: 1024px) { /*above 1024*/
+
+    .container{
+        max-width: 1011px;
+        padding:0 15px;
+        margin:0 auto;
+    }
+    header{
+        background: var(--dark);
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+    }
+    .right h1{
+        font-size: 28px;
+        color:var(--primary);
+    }
+}
+ @media screen and (min-width:900px) and (max-width:1024px){ /*Greater than 900 less than 1024 */
+    header{
+        background: var(--dark);
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 93%, 0 100%);
+    }
+ }
+ @media screen and (min-width:768px) and (max-width:900px){ /*greater than 768 less than 900*/
+    header{
+        background: var(--dark);
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+        height:650px;
+    }
+    #self{
+        height: auto;
+        width:  400px;
+    }
+    #about{
+        max-width: 160px;
+        /*padding:0 50px;*/
+        margin: auto;
+        
+    }
+    .main{
+        height:600px;
+        margin-top:15px;
+    }
+    .social{
+        margin-top: 20px;
+    }
+
+ }
+ @media screen and (min-width:320px) and (max-width:663px){ /*Greater than 900 less than 1024 */
+    header nav .left a{
+        display: none;
+    }
+    .hamburg-icon{
+        display: block;
+        margin-left: 100%;
+        cursor: pointer;
+    }
+    .hamburg-icon:hover{
+        color: var(--primary);
+    }
+    .hamburg-menu{
+        width: 120px;
+    }
+    
+ }
+ @media screen and (min-width:600px) and (max-width:768px){
+    header{
+        background: var(--dark);
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 98%, 0 100%);
+        height:550px;
+    }
+    .info{
+        max-width: 600px;
+        padding:0 10px;
+        margin:0 auto;
+        display: flex;
+        /* justify-content: space-between; */
+        color:var(--pure);
+        align-items: center;
+    }
+    #self{
+        height: auto;
+        width:  300px;
+    }
+    .right h1{
+        font-size: 20px;
+        color:var(--primary);
+    }
+    .right p{
+        font-family: Segoe Print;
+        font-size: 15px;
+    }
+    #info1{
+        font-size: 15px;
+        text-align: justify;
+        margin-top:20px;
+    }
+    #cv{
+        height:50px;
+        width:200px;
+        margin-top:30px;
+        background: none;
+        border:1px solid var(--primary);
+        border-radius: 10px;
+        color:var(--primary);
+        font-size:17px;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    #aboutme{
+        text-align: justify;
+        margin-top:50px;
+        font-size: 12px;
+    }
+    .social{
+        margin-top: 90px;
+    }
+    .mainsection{
+        max-width: 1200px;
+        padding:0 15px;
+        margin:0 auto;
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    .ph3{
+        background: var(--dark);
+        height:400px;
+        padding:120px 50px;
+    }
+    .left-foot a{
+        font-size:12px;
+    }
+     
+ }
+ @media screen and (min-width:480px) and (max-width:600px){ /*Greater than 480 less than 600 */
+    header{
+        background: var(--dark);
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 100%);
+        height: 950px;
+    }
+    .hamburg-icon{
+        display: block;
+        margin-left: 50%;
+        cursor: pointer;
+    }
+    #self{
+        height: auto;
+        width:  400px;
+    }
+    .right p{
+        font-family: Segoe Print;
+        font-size: 15px;
+    }
+    #info1{
+        font-size: 15px;
+        text-align: justify;
+        margin-top:20px;
+    }
+    #cv{
+        height:50px;
+        width:200px;
+        margin-top:30px;
+        background: none;
+        border:1px solid var(--primary);
+        border-radius: 10px;
+        color:var(--primary);
+        font-size:17px;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    .info{
+        max-width: 1150px;
+        padding:0 15px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        color:var(--pure);
+        /* align-items: center; */
+    }
+    #aboutme{
+        text-align: justify;
+        margin-top:30px;
+        font-size: 12px;
+    }
+    .social{
+        margin-top: 40px;
+    }
+    .mainsection{
+        max-width: 1200px;
+        padding:0 15px;
+        margin:0 auto;
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    .ph3{
+        background: var(--dark);
+        height:400px;
+        padding:120px 50px;
+    }
+    .left-foot a{
+        font-size:12px;
+    }
+    .potrait{
+        max-width: 900px;
+        padding: 15px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+    .main{
+        height:650px;
+        margin-top:15px;
+    }
+    #potrait{
+        height: auto;
+        width:  200px;
+        box-shadow:10px 20px 15px rgba(0,0,0,0.3);
+    }
+    .right{
+        margin-left: 0px;
+    }
+    .right h2{
+        margin-top:30px;
+    }
+    .foot{
+        max-width: 900px;
+        padding: 20px;
+        margin: 0 auto;
+        /* align-items: center; */
+        /* background: darksalmon; */
+        /* justify-content: center; */
+    }
+    .foot-sec{
+        display: flex;
+        margin-left: auto;
+        justify-content: space-between;
+        max-width: 900px;
+    }
+    .con{
+        height:180px;
+        width:150px;
+        background:var(--light);
+        margin:20px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        position: absolute;
+        margin-left: 0px;
+    }
+
+ }
+ @media screen and (min-width:320px) and (max-width:480px){ /*Greater than 320 less than 480 */
+    header{
+        background: var(--dark);
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 100%);
+        height: 900px;
+    }
+    .hamburg-icon{
+        display: block;
+        margin-left: -20%;
+        cursor: pointer;
+    }
+    #self{
+        height: auto;
+        width:  300px;
+    }
+    .right p{
+        font-family: Segoe Print;
+        font-size: 15px;
+    }
+    #info1{
+        font-size: 15px;
+        text-align: justify;
+        margin-top:20px;
+    }
+    #cv{
+        height:50px;
+        width:200px;
+        margin-top:30px;
+        background: none;
+        border:1px solid var(--primary);
+        border-radius: 10px;
+        color:var(--primary);
+        font-size:17px;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    .info{
+        max-width: 1150px;
+        padding:0 15px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        color:var(--pure);
+        /* align-items: center; */
+    }
+    #aboutme{
+        text-align: justify;
+        margin-top:30px;
+        font-size: 12px;
+    }
+    .social{
+        margin-top: 40px;
+    }
+    .mainsection{
+        max-width: 1200px;
+        padding:0 15px;
+        margin:0 auto;
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    .ph3{
+        background: var(--dark);
+        height:400px;
+        padding:120px 50px;
+    }
+    .left-foot a{
+        font-size:10px;
+    }
+    .right-foot ul{
+        text-decoration: none;
+        color:var(--pure);
+        font-size: 10px;
+    
+    }
+    .potrait{
+        max-width: 900px;
+        padding: 15px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+    .main{
+        height:750px;
+        margin-top:15px;
+    }
+    #potrait{
+        height: auto;
+        width:  200px;
+        box-shadow:10px 20px 15px rgba(0,0,0,0.3);
+    }
+    .right{
+        margin-left: 0px;
+    }
+    .right h2{
+        margin-top:30px;
+    }
+    .foot{
+        max-width: 900px;
+        padding: 20px;
+        margin: 0 auto;
+        /* align-items: center; */
+        /* background: darksalmon; */
+        /* justify-content: center; */
+    }
+    .foot-sec{
+        display: flex;
+        margin-left: auto;
+        justify-content: space-between;
+        max-width: 900px;
+    }
+    .con{
+        height:180px;
+        width:150px;
+        background:var(--light);
+        margin:20px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        position: absolute;
+        margin-left: 0px;
+    }
+ }
